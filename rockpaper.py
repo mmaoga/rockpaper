@@ -1,7 +1,5 @@
-print ()
 import random
 
-# input("Hello, Press Enter to start.")
 print()
 
 user_input = str(input("What is your name: ")).upper()
