@@ -79,7 +79,7 @@ while True:
   if repeat == 'n':
     
     print()
-    print ("Thank you for playing " +str(user_input) + ". We hope you Enjoyed!\nGoodbye!")
+    print ("Thank you for playing " +str(user_input) + ". We hope you enjoyed the game!\nGoodbye!")
     print ("\n..........\n")
     break
 
