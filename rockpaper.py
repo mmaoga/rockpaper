@@ -35,7 +35,7 @@ while True:
 
   if player_choice == 'rock':
     if computer_choice == 'rock':
-      print("It's a TIE!")
+      print("It's a TIE! Both players Selected Scissors!!")
       tie+=1
     elif computer_choice == 'scissors':
       print("You WIN!")
@@ -45,17 +45,17 @@ while True:
       computer+=1
   elif player_choice == 'paper':
     if computer_choice == 'paper':
-      print("It's a TIE!")
+      print("It's a TIE! Both players Selected Scissors!")
       tie+=1
     elif computer_choice == 'rock':
       print("You WIN!")
       player+=1
     elif computer_choice == 'scissors':
-      print("You LOSE!")
+      print("You LOSE! ")
       computer+=1
   elif player_choice == 'scissors':
     if computer_choice == 'scissors':
-      print("It's a TIE!")
+      print("It's a TIE Both players Selected Scissors!!")
       tie+=1
     elif computer_choice == 'paper':
       print("You WIN!")
