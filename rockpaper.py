@@ -65,9 +65,10 @@ while True:
       computer+=1
 
   print()
-  print("     "+str(user_input) +" has "+str(player)+" winnings!")
+  print ("SCORES:")
+  print("     Number of games WON by "+str(user_input) +":"+str(player)+"!")
   print ("     .....")
-  print("     The computer has "+str(computer)+" winnings!")
+  print("     Number of games WON by the computer: "+str(computer)+"!")
   print ("     .....")
   print ("     Number of games tied: "+str(tie)+"!")
   print()
