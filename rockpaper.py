@@ -38,39 +38,41 @@ while True:
       print("It's a TIE! Both players Selected Scissors!!")
       tie+=1
     elif computer_choice == 'scissors':
-      print("You WIN!")
+      print("Rock beats Scissors! You WIN!!")
       player+=1
     elif computer_choice == 'paper':
-      print("You LOSE!")
+      print("Paper beats Rock! You LOSE!!")
       computer+=1
   elif player_choice == 'paper':
     if computer_choice == 'paper':
       print("It's a TIE! Both players Selected Scissors!")
       tie+=1
     elif computer_choice == 'rock':
-      print("You WIN!")
+      print(" Paper beats Rock! You WIN!!")
       player+=1
     elif computer_choice == 'scissors':
-      print("You LOSE! ")
+      print("Scissors beat Paper! You LOSE!!")
       computer+=1
   elif player_choice == 'scissors':
     if computer_choice == 'scissors':
       print("It's a TIE Both players Selected Scissors!!")
       tie+=1
     elif computer_choice == 'paper':
-      print("You WIN!")
+      print("Scissors beat Paper! You WIN!!")
       player+=1
     elif computer_choice == 'rock':
-      print("You WIN!")
+      print("Rock beats Scissors!You LOSE!")
       computer+=1
 
   print()
-  print ("SCORES:")
+  print("SCORES:")
   print("     Number of games WON by "+str(user_input) +":"+str(player)+"!")
-  print ("     .....")
+  print("     .....")
   print("     Number of games WON by the computer: "+str(computer)+"!")
-  print ("     .....")
-  print ("     Number of games tied: "+str(tie)+"!")
+  print("     .....")
+  print("     Number of games tied: "+str(tie)+"!")
+  print("     .....")
+  print("     The number of rounds played: "+str(game)+"!")
   print()
 
   repeat = input("Would you like to Play again? (Y/N) ").lower()
@@ -87,7 +89,7 @@ while True:
   else:
     game+=1
 
-  print("\n.........\n"+"ROUND --  " +str(game)+"!"+"\n...........\n")
+  print("\n............\n"+"ROUND --  " +str(game)+"!"+"\n............\n")
   print ()
 
  
